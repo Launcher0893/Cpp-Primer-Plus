@@ -1,0 +1,29 @@
+// not.cpp -- using the NOT operator
+#include <iostream>
+#include <climits>
+bool is_int(double);
+int main()
+{
+    using namespace std;
+    double num;
+
+    cout << "Yo, dude! Enter an integer value: ";
+    cin >> num;
+    while (!is_int(num))    // continue while num is not int_able
+    {
+        cout << "Out of range -- please try again: ";
+        cin >> num;
+    }
+    int val = int (num);    // type cast
+    cout << "You entered the integer " << val << "\nBye\n";
+    
+    return 0;
+}
+
+bool is_int(double x)
+{
+    if (x < INT_MIN || x > INT_MAX) // use climits values
+        return false;
+    else
+        return true;
+}
