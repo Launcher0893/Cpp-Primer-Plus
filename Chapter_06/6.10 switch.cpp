@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 void show_menu(); // function prototypes
-void report();
+void report();  // test remote changes again
 void comfort();
 
 int main()
