@@ -1,7 +1,7 @@
 // switch.cpp -- using the switch statement
 #include <iostream>
 using namespace std;
-void show_menu();   // function prototypes
+void show_menu(); // function prototypes
 void report();
 void comfort();
 
