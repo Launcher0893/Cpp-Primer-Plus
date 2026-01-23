@@ -1,0 +1,16 @@
+# VS Code tasks configuration (contains local paths)
+.vscode/tasks.json
+
+# Compiled executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
