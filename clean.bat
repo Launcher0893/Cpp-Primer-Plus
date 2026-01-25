@@ -1,13 +1,13 @@
 @echo off
-echo 正在清理编译生成的可执行文件...
+echo Cleaning compiled executable files...
 echo.
 
-:: 删除所有.exe文件
+:: Delete all .exe files
 for /r %%f in (*.exe) do (
-    echo 删除: %%f
+    echo Deleting: %%f
     del "%%f"
 )
 
 echo.
-echo 清理完成！
+echo Cleaning completed!
 pause
